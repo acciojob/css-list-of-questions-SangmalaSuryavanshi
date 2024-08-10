@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea; /* Optional: for a nicer background */
+    margin: 0;
+    padding: 0;
+}
+
+.questions {
+    background-color: #f8fffe;
+    height: 50px;
+    margin-top: 20px;
+    padding: 15px;
+    max-width: 600px;
+    border-left: 8px solid green;
+    box-sizing: border-box; /* Ensure padding is included in the height and width */
+}
+
+p {
+    margin: 0; /* Remove default margin from <p> tags */
+}
